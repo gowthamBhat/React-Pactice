@@ -1,10 +1,12 @@
 import React from 'react';
 
 const Greet = (props) => {
+    const { name, secondName } = props;  //object Destructuring
     return (
         <div>
             <h1>From a functional component</h1>
-            <h3>{props.name}</h3>
+            <h3>{name}</h3>
+            <h4>{secondName}</h4>
         </div>);
 }  //component 1
 const AnotherGreet = (props) => {
