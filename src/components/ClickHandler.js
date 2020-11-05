@@ -28,7 +28,10 @@ class HandleEvent extends Component {
         )
     }
 }
+<<<<<<< HEAD
 //class component ali function na method thara treat madbeku
 //access madoke this keyword use madbeku
+=======
+>>>>>>> 930dcad3ef9b67c7de282818bc4d153064a851b9
 export { HandleEvent }
 export default ClickHandler
