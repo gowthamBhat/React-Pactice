@@ -4,7 +4,7 @@ function ListView({ person }) {
 
     return (
         <div>
-            <h2>persons name is {person.name} his city is {person.city}</h2>
+            <h2 className="primary">persons name is {person.name} his city is {person.city}</h2>
         </div>
     )
 }
