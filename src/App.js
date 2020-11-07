@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import './components/styleSheet.css';
-import ColorSheet from './components/colorSheet'
-import List from './components/List'
+import FormComponent from './components/FormComponent'
+// import './components/styleSheet.css';
+// import ColorSheet from './components/colorSheet'
+// import List from './components/List'
 // import ParentComponent from './components/ParentComponent'
 // import ConditionalRenderning from './components/ConditionalRenderning'
 
@@ -14,8 +15,9 @@ import List from './components/List'
 function App() {
   return (
     <div className="App">
-      <ColorSheet />
-      <List />
+      <FormComponent />
+      {/* <ColorSheet />
+      <List /> */}
       {/* <ParentComponent />
       <ConditionalRenderning /> */}
       {/* <Greet name="Sitha-ram" secondName="Shree ram" />
