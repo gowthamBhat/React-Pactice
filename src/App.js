@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import FormComponent from './components/FormComponent'
+import ReactFragmentComponent from './components/ReactFragmentComponent'
+// import FormComponent from './components/FormComponent'
 // import './components/styleSheet.css';
 // import ColorSheet from './components/colorSheet'
 // import List from './components/List'
@@ -15,7 +16,8 @@ import FormComponent from './components/FormComponent'
 function App() {
   return (
     <div className="App">
-      <FormComponent />
+      <ReactFragmentComponent />
+      {/* <FormComponent /> */}
       {/* <ColorSheet />
       <List /> */}
       {/* <ParentComponent />
